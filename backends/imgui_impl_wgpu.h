@@ -20,7 +20,7 @@
 #include "imgui.h"          // IMGUI_IMPL_API
 #ifndef IMGUI_DISABLE
 
-#include <webgpu/webgpu.h>
+#include <webgpu.h>
 
 IMGUI_IMPL_API bool ImGui_ImplWGPU_Init(WGPUDevice device, int num_frames_in_flight, WGPUTextureFormat rt_format, WGPUTextureFormat depth_format = WGPUTextureFormat_Undefined);
 IMGUI_IMPL_API void ImGui_ImplWGPU_Shutdown();
